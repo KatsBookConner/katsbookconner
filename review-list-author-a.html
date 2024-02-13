@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kat's Book Conner - Book Reviews</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Website Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Kat's Book Conner - Book Reviews"/>
+    <meta name="description" content="Explore the literary world with Kat's Book Conner. Discover insightful book reviews, recommendations, and reflections on a variety of genres. Join me on a journey through the enchanting pages of literature."/>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://katsbookconner.github.io/katsbookconner/"/>
+    <meta property="og:title" content="Kat's Book Conner - Book Reviews"/>
+    <meta property="og:description" content="Explore the literary world with Kat's Book Conner. Discover insightful book reviews, recommendations, and reflections on a variety of genres. Join me on a journey through the enchanting pages of literature."/>
+    <meta property="og:image" content="images/logo-image.png"/>
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image"/>
+    <meta property="twitter:url" content="https://katsbookconner.github.io/katsbookconner/"/>
+    <meta property="twitter:title" content="Kat's Book Conner - Book Reviews"/>
+    <meta property="twitter:description" content="Explore the literary world with Kat's Book Conner. Discover insightful book reviews, recommendations, and reflections on a variety of genres. Join me on a journey through the enchanting pages of literature."/>
+    <meta property="twitter:image" content="images/logo-image.png"/>
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <div class="container">
+
+    <!-- Menu -->
+    <div class="row header">
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/page-logo.png" alt="Website Logo" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link" href="index.html#aboutme">About Me</a>
+                <a class="nav-link" href="review-list.html">My Bookshelf</a>
+                <a class="nav-link" href="index.html#contacts">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="row carousel-container">
+      <div class="col-md-12">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/carousel-book-month.png" class="d-block w-100" alt="Book of the month: The Seven Husbands of Evelyn Hugo">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel-happy-place.png" class="d-block w-100" alt="Sneak peek to the review of the book Happy Place">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel-next-review.png" class="d-block w-100" alt="Next Review coming up on the website: The American Roommate Experiment">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 bookshelf-title">
+        <h1 class="big-title">My Bookshelf</h1>
+      </div>
+      <div class="col-md-8 offset-md-2 bookshelf-text">
+        <p class="text">Welcome to My Bookshelf, your portal to literary adventure and discovery. Explore curated reviews offering gripping tales, heartwarming stories, and thought-provoking narratives.</p>
+      </div>
+    </div>
+
+    <div class="row bookshelf-filter">
+      <div class="col-md-3 offset-md-1 count-review">
+          <p class="count-title">Review Total:</p>
+          <p class="count-number">10</p>
+      </div>
+      <div class="col-md-7 search-review">
+        <p>Change Books View</p>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle btn-block" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sort By:
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="review-list.html">(none)</a></li>
+              <li><a class="dropdown-item" href="review-list-title-a.html">Title (A - Z)</a></li>
+              <li><a class="dropdown-item" href="review-list-title-z.html">Title (Z - A)</a></li>
+              <li><a class="dropdown-item" href="review-list-author-a.html">Author (A - Z)</a></li>
+              <li><a class="dropdown-item" href="review-list-author-z.html">Author (Z - A)</a></li>
+              <li><a class="dropdown-item" href="review-list-rating-h.html">Rating (highest - lowest)</a></li>
+              <li><a class="dropdown-item" href="review-list-rating-l.html">Rating (lowest - highest)</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <!-- Preview das Reviews -->
+    <div class="row bookshelf">
+        <div class="col-md-2 offset-md-1">
+          <a href="review-check-mate.html"><img src="images/book-check-mate.png" alt="Cover of the book Check & Mate" class="img-fluid"></a>
+            <h4 class="book-title"><a href="review-check-mate.html">Check & Mate</a></h4>
+            <h5 class="book-author">Ali Hazelwood</h5>
+        </div>
+        <div class="col-md-2">
+          <a href="review-lessons-chemistry.html"><img src="images/book-lessons-chemistry.png" alt="Cover of the book Lessons in Chemistry" class="img-fluid"></a>
+            <h4 class="book-title"><a href="review-lessons-chemistry.html">Lessons in Chemistry</a></h4>
+            <h5 class="book-author">Bonnie Garmus</h5>
+        </div>
+        <div class="col-md-2">
+          <a href="review-dear-dolly.html"><img src="images/book-dear-dolly.png" alt="Cover of the book Dear Dolly, on love, life and friendship" class="img-fluid"></a>
+            <h4 class="book-title"><a href="review-dear-dolly.html">Dear Dolly, on love, life and friendship</a></h4>
+            <h5 class="book-author">Dolly Alderton</h5>
+        </div>
+        <div class="col-md-2">
+          <a href="review-happy-place.html"><img src="images/book-happy-place.png" alt="Cover of the book Happy Place" class="img-fluid"></a>
+            <h4 class="book-title"><a href="review-happy-place.html">Happy Place</a></h4>
+            <h5 class="book-author">Emily Henry</h5>
+        </div>
+        <div class="col-md-2">
+          <a href="review-glad-my-mom-died.html"><img src="images/book-glad-my-mom-died.png" alt="Cover of the book I'm Glad my Mom Died" class="img-fluid"></a>
+            <h4 class="book-title"><a href="review-glad-my-mom-died.html">I'm Glad my Mom Died</a></h4>
+            <h5 class="book-author">Jennette McCurdy</h5>
+        </div>
+    </div>
+    <div class="row bookshelf">
+      <div class="col-md-2 offset-md-1">
+        <a href="review-wilder-girls.html"><img src="images/book-wilder-girls.png" alt="Cover of the book Wilder Girls" class="img-fluid"></a>
+          <h4 class="book-title"><a href="review-wilder-girls.html">Wilder Girls</a></h4>
+          <h5 class="book-author">Rory Power</h5>
+      </div>
+      <div class="col-md-2">
+        <a href="review-beautiful-world-where-are-you.html"><img src="images/book-beautiful-world.png" alt="Cover of the book Beautiful World, Where Are You" class="img-fluid"></a>
+          <h4 class="book-title"><a href="review-beautiful-world-where-are-you.html">Beautiful World, Where Are You</a></h4>
+          <h5 class="book-author">Sally Rooney</h5>
+      </div>
+      <div class="col-md-2">
+        <a href="review-throne-glass.html"><img src="images/book-throne-glass.png" alt="Cover of the book Throne of Glass" class="img-fluid"></a>
+          <h4 class="book-title"><a href="review-throne-glass.html">Throne of Glass</a></h4>
+          <h5 class="book-author">Sarah J. Maas</h5>
+      </div>
+      <div class="col-md-2">
+        <a href="review-seven-husband-evelyn-hugo.html"><img src="images/book-seven-husbands-evelyn-hugo.png" alt="Cover of the book The Seven Husbands of Evelyn Hugo" class="img-fluid"></a>
+          <h4 class="book-title"><a href="review-seven-husband-evelyn-hugo.html">The Seven Husbands of Evelyn Hugo</a></h4>
+          <h5 class="book-author">Taylor Jenkins Reid</h5>
+      </div>
+      <div class="col-md-2">
+        <a href="review-before-coffee-gets-cold.html"><img src="images/book-before-coffee-gets-cold.png" alt="Cover of the book Before the Coffee Gets Cold" class="img-fluid"></a>
+          <h4 class="book-title"><a href="review-before-coffee-gets-cold.html">Before the Coffee Gets Cold</a></h4>
+          <h5 class="book-author">Toshikazu Kawaguchi</h5>
+      </div>
+  </div>
+
+    <!-- Rodapé -->
+    <a id="contacts"></a>
+    <div class="row footer">
+      <div class="col-md-5 offset-md-1">
+        <a href="index.html"><img src="images/page-logo.png" alt="Website Logo" class="footer-logo"></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#aboutme">About Me</a></li>
+          <li><a href="review-list.html">My BookShelf</a></li>
+          <li><a href="index.html#contacts">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <p class="social-media-text">Find me!</p>
+        <ul class="social-media-icons">
+          <li><a href="https://www.instagram.com/katsbookconner/"><i class="fa-brands fa-square-instagram"></i></a></li>
+          <li><a href="https://www.goodreads.com/user/show/175459580-kat-s-book-conner"><i class="fa-brands fa-goodreads"></i></a></li>
+          <li><a href="https://www.tiktok.com/@kats_book_conner?_t=8jpWwbZkIXw&_r=1"><i class="fa-brands fa-tiktok"></i></a></li>
+          <li><a href="mailto:info@katsbookconner.pt"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-line"><hr></div>
+      <div class="col-md-11 offset-md-1">
+        <a href="index.html">@ 2023 Kat's Book Conner, all rights reserved</a>
+      </div>
+
+  </div>
+  </div>
+
+</body>
+
+</html>
